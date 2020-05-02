@@ -1,0 +1,51 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: bc971bf2dd2b520e2f310f1701c9bc0c0aac197bdf334cc656d31bcdf850986f
+
+name:           pdep-jm-jovits
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/pdep-jm-jovits#readme>
+homepage:       https://github.com/githubuser/pdep-jm-jovits#readme
+bug-reports:    https://github.com/githubuser/pdep-jm-jovits/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2020 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/pdep-jm-jovits
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_pdep_jm_jovits
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
+test-suite pdep-jm-jovits-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_pdep_jm_jovits
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , hspec
+    , pdep-jm-jovits
+  default-language: Haskell2010
