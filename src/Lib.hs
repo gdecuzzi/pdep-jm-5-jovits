@@ -19,3 +19,5 @@ pippin = ("Peregrin Took", 131)
 reputacion:: Jovit -> Int
 reputacion (nombre, estatura) = estatura * (length nombre)
 
+reputacion':: Jovit -> Int
+reputacion' jovit = snd jovit * length (fst jovit) 
