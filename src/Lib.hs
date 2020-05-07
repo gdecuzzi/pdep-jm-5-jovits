@@ -24,3 +24,11 @@ reputacion' jovit = snd jovit * length (fst jovit)
 
 -- diferencia de alturas
 diferenciaAltura (_, altura1) (_, altura2) = altura1 - altura2
+
+-- EL CENSO!!!
+yenny=("Yennisifez Lorne", 75)
+ary= ("Ariel Airimedez", 103)
+
+censo2020 = [rosita,merryl,yenny,pippin,ary]
+
+
