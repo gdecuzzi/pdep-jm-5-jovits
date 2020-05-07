@@ -37,6 +37,9 @@ seCansoDeEsperar = last
 seCansoDeEsperar' = head.reverse
 participacion:: [Jovit] -> Int
 participacion = length
-
+elPuebloJovitTodo = censo2020 ++ noCensados2020
+elTopTres = take 3
+elResto = drop 3
+veoDoble = replicate 2.take 3
 
 
