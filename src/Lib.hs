@@ -15,3 +15,7 @@ merryl = ("Meriadoc Brandigamo", 131)
 pippin:: Jovit
 pippin = ("Peregrin Took", 131)
 
+-- reputación: longitud de su nombre multiplicado por su estatura
+reputacion:: Jovit -> Int
+reputacion (nombre, estatura) = estatura * (length nombre)
+
