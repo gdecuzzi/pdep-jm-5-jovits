@@ -30,5 +30,13 @@ yenny=("Yennisifez Lorne", 75)
 ary= ("Ariel Airimedez", 103)
 
 censo2020 = [rosita,merryl,yenny,pippin,ary]
+noCensados2020 = [bilbo]
+
+amananecioConElCenso = head
+seCansoDeEsperar = last
+seCansoDeEsperar' = head.reverse
+participacion:: [Jovit] -> Int
+participacion = length
+
 
 
