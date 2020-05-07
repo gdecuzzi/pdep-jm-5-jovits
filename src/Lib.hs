@@ -21,3 +21,6 @@ reputacion (nombre, estatura) = estatura * (length nombre)
 
 reputacion':: Jovit -> Int
 reputacion' jovit = snd jovit * length (fst jovit) 
+
+-- diferencia de alturas
+diferenciaAltura (_, altura1) (_, altura2) = altura1 - altura2
